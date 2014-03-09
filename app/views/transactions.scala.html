@@ -1,0 +1,5 @@
+@(transactions : List[Transaction])
+source,target,value
+@for(tran <- transactions) {
+@tran.source,@tran.target,@tran.value
+}

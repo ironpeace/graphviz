@@ -1,0 +1,20 @@
+transactions:
+ - !!models.Transaction
+  source: 005-001-0000001-xxxxxxx
+  target: 005-001-0000002-xxxxxxx
+  value: 1.0
+
+ - !!models.Transaction
+  source: 005-001-0000001-xxxxxxx
+  target: 005-003-0000003-xxxxxxx
+  value: 1.0
+
+ - !!models.Transaction
+  source: 005-001-0000001-xxxxxxx
+  target: 001-004-???????-0000004
+  value: 1.0
+
+ - !!models.Transaction
+  source: 005-001-0000002-xxxxxxx
+  target: 005-001-0000001-xxxxxxx
+  value: 1.0
